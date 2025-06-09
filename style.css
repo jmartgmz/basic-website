@@ -4,7 +4,26 @@ html {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+button{
+  background-color: #3882f6;
+  border: white 1px solid;
+  border-radius: 6px;
+  color: white;
+  width:80px;
+  height: 32px
 }
 
 .main-container {
@@ -16,9 +35,22 @@ html {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background-color: black;
-
   color: white;
+  font-size: 12px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
 }
 
 .content-image {
@@ -33,11 +65,43 @@ html {
 
 .inspirational-quote {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 24px;
+}
+
+.author {
+  font-size: 16px;
+  margin-top: 0;
+  margin-left: 230px;
 }
 
 .call-to-action {
-  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 16px 32px;
+  border-radius: 6px;
+  margin: 32px 164px;
+  color: white;
 }
+
+.call-to-action .cta-text h1 {
+  margin-bottom: 0px; /* Reduce space below the heading */
+  font-size: 18px;
+}
+
+.call-to-action .cta-text p {
+  margin-top: 0; /* Remove extra space above the paragraph */
+  font-size: 12px;
+}
+
 
 .footer {
   background-color: #1f2937;
@@ -45,5 +109,4 @@ html {
   text-align: center;
   font-size: 12px;
   padding: 12px;
-  margin-top: auto; /* This pushes the footer to the bottom */
 }
