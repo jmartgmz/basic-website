@@ -36,12 +36,16 @@ button {
 
 /* Start of Header */
 .header {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
   display: flex;
   justify-content: space-between;
   padding-right: 128px;
   padding-left: 128px;
   color: white;
   background-color: #1f2937;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 12px;
 }
 
@@ -79,7 +83,7 @@ button {
 
 .left-side {
   display: flex;
-  flex:none;
+  flex: none;
   flex-direction: column;
   max-width: 400px;
 }
