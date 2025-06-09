@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This ensures the container fills the entire viewport height */
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+
+  color: white;
+}
+
+.content-image {
+  background-color: #1f2937;
+
+  color: white;
+}
+
+.random-information {
+  background-color: white;
+}
+
+.inspirational-quote {
+  background-color: #e5e7eb;
+}
+
+.call-to-action {
+  background-color: white;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 12px;
+  margin-top: auto; /* This pushes the footer to the bottom */
+}
