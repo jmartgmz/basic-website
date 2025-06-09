@@ -17,13 +17,13 @@ ul {
   padding-left: 0;
 }
 
-button{
+button {
   background-color: #3882f6;
   border: white 1px solid;
   border-radius: 6px;
   color: white;
-  width:80px;
-  height: 32px
+  width: 80px;
+  height: 32px;
 }
 
 .main-container {
@@ -34,10 +34,11 @@ button{
   padding: 0;
 }
 
+/* Start of Header */
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #1f2937;
   color: white;
   font-size: 12px;
 
@@ -53,16 +54,86 @@ button{
   padding: 10px;
 }
 
+/* Start of 1st space */
 .content-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
   background-color: #1f2937;
-
   color: white;
+  padding: 128px;
 }
 
+.content-image h1 {
+  margin: 0;
+}
+
+.content-image p {
+  margin-top: 4px;
+}
+.content-image button {
+  border: none;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  flex-grow: none;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+}
+
+/* Start of 2nd space */
 .random-information {
   background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
 }
 
+.card-container {
+  display: flex;
+  gap: 64px;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 150px;
+}
+
+.card {
+  background-color: #f3f4f6;
+  border: #3882f6 2px solid;
+  border-radius: 4px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+  width: 164px;
+  height: 164px; /* Set a fixed height for the card */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* Prevents inline image spacing issues */
+}
+
+/* Start of 3rd space */
 .inspirational-quote {
   background-color: #e5e7eb;
   display: flex;
@@ -79,12 +150,13 @@ button{
 
 .author {
   font-size: 16px;
-  margin-top: 0;
+  margin-top: 0px;
   margin-left: 230px;
 }
 
+/* Start of 4th space */
 .call-to-action {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #3882f6;
@@ -104,7 +176,7 @@ button{
   font-size: 12px;
 }
 
-
+/* Start of footer */
 .footer {
   background-color: #1f2937;
   color: white;
