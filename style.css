@@ -67,7 +67,7 @@ button {
   padding: 128px;
   color: white;
   background-color: #1f2937;
-  gap: 128px;
+  gap: 64px;
 }
 
 .content-image h1 {
